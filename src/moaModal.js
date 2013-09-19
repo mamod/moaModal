@@ -1,6 +1,14 @@
+/*
+* moaModal
+* MIT Licensed
+* @author Mamod Mehyar
+* http://twitter.com/mamod
+* http://mamod.me
+* version : 1.0
+*/
+
 (function($){
-    "use strict";
-    
+    "use strict";  
     var _SW_overlay
       , _modalWrapper
       , _SW_modal;

@@ -1,3 +1,12 @@
+/*
+* moaModal
+* MIT Licensed
+* @author Mamod Mehyar
+* http://twitter.com/mamod
+* http://mamod.me
+* version : 1.0
+*/
+
 (function(c){var q,n,w,r={speed:500,easing:"linear",position:"0 auto",animation:"none",on:"click",escapeClose:!0,overlayColor:"#000000",overlayOpacity:0.7,overlayClose:!0};c(document).ready(function(){q=c("<div></div>").css({width:"100%",height:c(document).height(),position:"fixed",backgroundColor:"#000",overflow:"hidden",opacity:0.7,top:0,left:0,display:"none",zIndex:"999996"}).appendTo("body");n=c("<div></div>").css({width:"100%",height:c(document).height(),position:"absolute",display:"none",overflow:"hidden",
 top:0,left:0,zIndex:"999998"}).appendTo("body");w=c("<div></div>").css({position:"relative",width:"100%",zIndex:"999997",top:0,left:0,visibility:"hidden"}).appendTo(n)});var x=function(h,a){a=c.extend({},r,a);var b=c(a.modal);if(b.length){a.position=a.position.replace(/(\d+)(\s|$)/g,"$1px$2");var g=w,s=a.position.split(" ")[1],t={position:"relative",overflow:"hidden",display:"block",zIndex:"999999",margin:a.position},p=b.clone(),u,k;p.appendTo("body").css({maxWidth:window.screen.width,maxHeight:window.screen.height});
 u=p.outerWidth();k=p.outerHeight();0==k&&(k="1%");p.remove();for(var f={},p=a.animation.split(" "),v=0;v<p.length;v++)f[p[v]]=!0;!1!==a.overlayClose&&n.click(function(a){this!=a.target&&a.target!=g[0]||b.trigger("close.modal")});if(a.escapeClose)c(document).on("keydown.modal",function(a){27===a.which&&b.trigger("close")});a.close&&c(a.close).click(function(){b.trigger("close.modal");return!1});h.on(a.on,function(d){q.css({backgroundColor:a.overlayColor,opacity:a.overlayOpacity});if("click"!==a.on)c(document).one("mouseup",
