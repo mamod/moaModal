@@ -4,7 +4,7 @@
 * @author Mamod Mehyar
 * http://twitter.com/mamod
 * http://mamod.me
-* version : 1.0.0
+* version : 1.1.0
 */
 
 (function(c){var q,n,w,r={speed:500,easing:"linear",position:"0 auto",animation:"none",on:"click",escapeClose:!0,overlayColor:"#000000",overlayOpacity:0.7,overlayClose:!0};c(document).ready(function(){q=c("<div></div>").css({width:"100%",height:c(document).height(),position:"fixed",backgroundColor:"#000",overflow:"hidden",opacity:0.7,top:0,left:0,display:"none",zIndex:"999996"}).appendTo("body");n=c("<div></div>").css({width:"100%",height:c(document).height(),position:"absolute",display:"none",overflow:"hidden",
