@@ -13,7 +13,7 @@ Features
 USAGE
 =====
 
-See [moaModal Demo & Usage ](http://mamod.me/moaModal)
+See [moaModal Demo & Usage ](https://dl.dropboxusercontent.com/u/3241507/moaModal/index.html)
 
 HELP?
 =====
