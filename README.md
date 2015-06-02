@@ -1,3 +1,10 @@
+
+MOVED TO SWEEFTY REPO
+=====================
+
+moaModal has been moved to another repo, please check [Sweefty moaModal](https://github.com/Sweefty/moaModal)
+--------------------------------------------------------------------------------------------------------------
+
 Moa Modal
 =========
 
@@ -13,14 +20,7 @@ Features
 USAGE
 =====
 
-See [moaModal Demo & Usage ](https://dl.dropboxusercontent.com/u/3241507/moaModal/index.html)
-
-HELP?
-=====
-
-If you need any help or have any question just let me know
-
-[mamod.mehyar@gmail.com](mailto:mamod.mehyar@gmail.com "")
+See [moaModal Demo & Usage ](http://sweefty.com/moaModal)
 
 
 LICENSE (MIT)
